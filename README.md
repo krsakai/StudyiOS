@@ -6,7 +6,7 @@
 #### 2. StoryBoradにラベルを配置して、ラベルとソースコードと紐付けしてみる<br>
 #### 3. StoryBoardにボタンを配置して、ボタンアクションとソースコードを紐付けしてみる<br>
 #### 4. Objective-Cのメソッドとプロパティー(変数)について解説<br>
-■ 2.3紐付け方法と4の解説<br>
+■ 2と3の紐付け方法と4の解説<br>
 .hファイルにラベルのプロパティなら以下のように宣言する<br>
 ```
 @property (weak, nonatomic) IBOutlet UILabel *sampleLabel;
