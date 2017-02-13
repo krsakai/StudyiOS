@@ -10,11 +10,19 @@
 
 @interface ViewController : UIViewController
 
+// ラベル
 @property (weak, nonatomic) IBOutlet UILabel *sampleLabel;
 
+// スイッチの値が変更された時
 - (IBAction)switchValueChanged:(id)sender;
+
+// スライダーの値が変更された時
 - (IBAction)sliderValueChanged:(id)sender;
+
+// セグメントコントロールの値が変更された時
 - (IBAction)segmentControlValueChanged:(id)sender;
+
+// ボタンがタップされた時
 - (IBAction)buttonTapped:(id)sender;
 
 
