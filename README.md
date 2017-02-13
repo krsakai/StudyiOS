@@ -6,8 +6,7 @@
 ***
 #### 2. StoryBoradにラベルを配置して、ラベルとソースコードと紐付けしてみる<br>
 #### 3. StoryBoardにボタンを配置して、ボタンアクションとソースコードを紐付けしてみる<br>
-#### 4. Objective-Cのメソッドとプロパティー(変数)について解説<br>
-■ 2と3の紐付け方法と4の解説<br>
+■ 2と3の紐付け方法<br>
 ラベルのプロパティなら.hファイルに以下のように宣言する<br>
 ```
 @property (weak, nonatomic) IBOutlet UILabel *sampleLabel;
@@ -20,7 +19,8 @@
 .hファイルに宣言したラベルとボタンのアクションをStoryBoardに紐付けるときは下記のキャプチャのように行う<br>
 線を引くのは `control`を押しながらドラッグ<br>
 <img width="700" src="https://github.com/krsakai/StudyiOS/blob/chapter_3/chapter3/chapter3_mapping.gif?raw=true"/><br>
-
+***
+#### 4. Objective-Cのメソッドとプロパティー(変数)について解説<br>
 ```
 @property (weak, nonatomic) IBOutlet UILabel *sampleLabel;
 
@@ -58,3 +58,4 @@
 ■ 5.の実行結果
 
 <img width="700" src="https://github.com/krsakai/StudyiOS/blob/chapter_3/chapter3/captuer_3.gif?raw=true"/>
+***
