@@ -30,6 +30,7 @@
 　sender 引数名
 ```
 紐付けるときは下記のキャプチャのように行う<br>
+線を引くのは `control`を押しながらドラッグ<br>
 <img width="700" src="https://github.com/krsakai/StudyiOS/blob/chapter_3/chapter3/chapter3_mapping.gif?raw=true"/><br>
 3. Objective-Cのメソッドとプロパティー(変数)について解説<br>
 4. 実際に各パーツを配置してアクション(イベント)を定義して、動的にアプリを動かしてみよう<br>
