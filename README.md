@@ -3,9 +3,10 @@
 ■ やったこと<br>
 #### 1. iOSの基本的な画面遷移について<br>
 ■ UINavigationControllerを追加してStoryBoardのみで画面遷移しよう<br>
-■ Modalで画面遷移して、コードで画面を閉じてみよう<br>
-
 <img width="800" src="https://github.com/krsakai/StudyiOS/blob/chapter_4/image/transition_viewcontroller.gif?raw=true"/><br>
+
+■ Modalで画面遷移して、コードで画面を閉じてみよう<br>
+<img width="800" src="https://github.com/krsakai/StudyiOS/blob/chapter_4/image/modal_transition_close.gif?raw=true"/><br>
 
 ***
 #### 2. マルチデバイスのレイアウト対応について<br>
