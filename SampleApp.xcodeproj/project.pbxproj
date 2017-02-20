@@ -15,6 +15,7 @@
 		C89F586A1E51770C00ADBA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89F58681E51770C00ADBA58 /* LaunchScreen.storyboard */; };
 		C89F58751E51770C00ADBA58 /* SampleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C89F58741E51770C00ADBA58 /* SampleAppTests.m */; };
 		C89F58801E51770C00ADBA58 /* SampleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C89F587F1E51770C00ADBA58 /* SampleAppUITests.m */; };
+		C8E0CC4B1E5AAEBF0087C980 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E0CC4A1E5AAEBF0087C980 /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C89F587B1E51770C00ADBA58 /* SampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89F587F1E51770C00ADBA58 /* SampleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleAppUITests.m; sourceTree = "<group>"; };
 		C89F58811E51770C00ADBA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8E0CC491E5AAEBF0087C980 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		C8E0CC4A1E5AAEBF0087C980 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C89F58681E51770C00ADBA58 /* LaunchScreen.storyboard */,
 				C89F586B1E51770C00ADBA58 /* Info.plist */,
 				C89F585A1E51770C00ADBA58 /* Supporting Files */,
+				C8E0CC491E5AAEBF0087C980 /* ModalViewController.h */,
+				C8E0CC4A1E5AAEBF0087C980 /* ModalViewController.m */,
 			);
 			path = SampleApp;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8E0CC4B1E5AAEBF0087C980 /* ModalViewController.m in Sources */,
 				C89F58621E51770C00ADBA58 /* ViewController.m in Sources */,
 				C89F585F1E51770C00ADBA58 /* AppDelegate.m in Sources */,
 				C89F585C1E51770C00ADBA58 /* main.m in Sources */,
@@ -507,6 +513,7 @@
 				C89F58861E51770C00ADBA58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C89F58871E51770C00ADBA58 /* Build configuration list for PBXNativeTarget "SampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				C89F58891E51770C00ADBA58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C89F588A1E51770C00ADBA58 /* Build configuration list for PBXNativeTarget "SampleAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				C89F588C1E51770C00ADBA58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
