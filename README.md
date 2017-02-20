@@ -4,8 +4,10 @@
 #### 1. iOSの基本的な画面遷移について<br>
 ■ UINavigationControllerを追加してStoryBoardのみで画面遷移しよう<br>
 <img width="800" src="https://github.com/krsakai/StudyiOS/blob/chapter_4/image/transition_viewcontroller.gif?raw=true"/><br>
+↑ Push遷移がNavigationControllerの遷移<br>
+↓ Modalの遷移 = 下から出てくるやつ<br>
 
-■ Modalで画面遷移して、コードで画面を閉じてみよう<br>
+■ Modalで開いた画面遷移して、コードで画面を閉じてみよう<br>
 <img width="800" src="https://github.com/krsakai/StudyiOS/blob/chapter_4/image/modal_transition_close.gif?raw=true"/><br>
 
 ***
